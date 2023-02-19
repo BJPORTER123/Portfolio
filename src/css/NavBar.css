@@ -1,26 +1,32 @@
-.nav-bar-list{
-    list-style: none;
-    background-color: black;
+.nav-bar {
+    background: linear-gradient(to right, #000000, #4e4376);
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-end;
-    gap: 40px;
+    padding: 8px;
+  }
+  
+  .nav-ul {
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    padding: 8px;
     margin: 0;
-    padding: 20px;
-}
-
-.nav-bar-item{
+    backface-visibility: hidden;
+  }
+  .nav-li{
+    position: relative;
+  }
+  
+  .nav-link {
     text-decoration: none;
-    color: white;
-    border-bottom: 2px solid transparent;
-    padding-bottom: 5px;
-}
-
-.nav-bar-item:hover{
-    border-bottom: 2px solid white;
-}
-
-.nav-bar-item:visited{
-    color: white;
-}
-
+    color: azure;
+    font-weight: 400;
+    margin-right: 1rem;
+  }
+  .nav-link:visited {
+    color: azure;
+  }

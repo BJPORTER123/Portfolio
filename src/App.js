@@ -1,19 +1,22 @@
-import './App.css';
-import { Routes,Route } from 'react-router-dom';
-import Home from './Components/Home';
-import Portfolio from './Components/Portfolio';
+import About from "./Containers/About";
+import Projects from "./Containers/Projects";
+import Home from "./Containers/Home";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <Routes>
-        <Route>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/portfolio' element={<Portfolio/>}/>
-        </Route>
-      </Routes>
-    </div>
-  );
-}
+
+const App = () => {
+
+return (
+  <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/about" element={<About/>}/>
+    <Route path="/projects" element={<Projects/>}/>
+  </Routes>
+)}
 
 export default App;
+
+    
+
+
