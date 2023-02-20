@@ -17,6 +17,12 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: "minecraft";
+  src: url(fonts/Minecraft.ttf);
+}
+
+
 :root{
   font-family: 'Open Sans';
   --t-primary:rgb(245, 237, 237);

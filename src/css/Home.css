@@ -1,7 +1,19 @@
+.image-container{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
 #zoomed-in-div {
-    width: 200px;
-    height: 200px;
     z-index: 999;
-    background-color: red
+    position: relative;
+    top: 4em;
+    left: -13em;
   }
   
+
+#desk-image{
+  position: relative;
+}
+

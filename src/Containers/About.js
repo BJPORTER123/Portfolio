@@ -1,10 +1,10 @@
 import '../css/About.css'
-import NavBar from './NavBar';
+import Back from './Back';
 
 const About = () => {
     return (
       <div className='about'>
-        <NavBar/>
+        <Back/>
         <h2 className='title-about'>About</h2>
         <div className="main-conatiner-about">
         </div>

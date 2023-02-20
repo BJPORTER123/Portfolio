@@ -1,10 +1,10 @@
 import '../css/Projects.css'
-import NavBar from './NavBar';
+import Back from './Back';
 
 const Projects = () => {
     return (
         <div className='project'>
-        <NavBar/>
+        <Back/>
         <h2 className='title-project'>Projects </h2>
         <div className="main-container-project">
             <div className='project-item'></div>
