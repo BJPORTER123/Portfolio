@@ -1,19 +1,35 @@
-.image-container{
-  margin: 0;
-  display: flex;
-  justify-content: center;
+.home-page-container {
+  height: 110vh;
+  overflow: hidden;
 }
 
+.image-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
 #zoomed-in-div {
     z-index: 999;
     position: relative;
-    top: 4em;
-    left: -13em;
+    top: -16em;
+    left: 21.5em;
   }
   
 
 #desk-image{
   position: relative;
+  z-index: 1;
+  top: -8em;
+  left: 35em;
+}
+
+#earth{
+  position: relative;
+  z-index: 0;
+  top: 19em;
+  left: -10em;
 }
 
