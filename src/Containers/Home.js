@@ -12,14 +12,14 @@ const Home = () => {
     const zoomedInDiv = document.getElementById("zoomed-in-div");
     zoomedInDiv.style.transition = "transform 0.5s ease-in-out";
     zoomedInDiv.style.transform = "scale(20) rotate(360deg)";
-    // zoomedInDiv.style.opacity = 1;
-    // const fadeInterval = setInterval(() => {
-    //   zoomedInDiv.style.opacity -= 0.001;
-    // }, 30);
+    zoomedInDiv.style.opacity = 1;
+    const fadeInterval = setInterval(() => {
+      zoomedInDiv.style.opacity -= 0.001;
+    }, 30);
 
     setTimeout(() => {
-      // clearInterval(fadeInterval);
-      // zoomedInDiv.style.opacity = 0;
+      clearInterval(fadeInterval);
+      zoomedInDiv.style.opacity = 0;
       window.location.href = event.target.href;
     }, 300);
   };
