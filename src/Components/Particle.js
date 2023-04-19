@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import React from "react";
 import "../css/Particle.css"
 
 const Particle = () => {

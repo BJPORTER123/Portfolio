@@ -1,18 +1,10 @@
-import React, {useState, useEffect} from "react";
-import {useTypewriter} from 'react-simple-typewriter'
+import React from "react";
 
-const Typewriter = () => {
-    cosnt [currentText, setCurrentText] = useState("")
-    useEffect(()=>{
-        setCurrentText((Value)=> )
-    },[])
-
+const Typerwriter = () => {
     return ( 
-        <>
-        <span>{currentText}</span>
-        </>
+    <>
+    </> 
     );
 }
-
  
-export default Typewriter;
+export default Typerwriter;
