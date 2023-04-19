@@ -5,6 +5,7 @@ import hole from "../images/black.png";
 import desk from "../images/desk.png";
 import Particle from "../Components/Particle";
 import earth from "../images/earth.png"
+import React from "react";
 
 const Home = () => {
   const handleZoomClick = (event) => {
@@ -29,7 +30,7 @@ const Home = () => {
       <Particle id="tsparticles" />
       <NavBar handleZoomClick={handleZoomClick} />
       <div className="intro-container">
-        <h2 className="writing"></h2>
+        <h2 className="writing">rtfhrth</h2>
       </div>
       <div className="image-container">
         <img id="desk-image" src={desk} alt="desk" height="500" width="500" />

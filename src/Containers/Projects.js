@@ -1,5 +1,6 @@
 import '../css/Projects.css'
 import Back from './Back';
+import React from 'react';
 
 const Projects = () => {
     return (

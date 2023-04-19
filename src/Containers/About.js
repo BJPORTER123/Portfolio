@@ -1,5 +1,6 @@
 import '../css/About.css'
 import Back from './Back';
+import React from 'react';
 
 const About = () => {
     return (
