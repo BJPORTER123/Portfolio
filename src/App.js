@@ -2,6 +2,7 @@ import About from "./Containers/About";
 import Projects from "./Containers/Projects";
 import Home from "./Containers/Home";
 import "./App.css";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
