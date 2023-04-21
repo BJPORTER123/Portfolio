@@ -1,5 +1,6 @@
 .home-page-container {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -41,7 +42,14 @@ img{
   user-select: none;
 }
 
-.writing{
+.text{
   color: aliceblue;
+  font-family: "Minecraft";
+  margin: 2%;
+  font-size: 50px;
+  display: flex;
+  flex-wrap: wrap;
+
+  
 }
 

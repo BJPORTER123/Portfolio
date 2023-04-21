@@ -1,5 +1,5 @@
-import '../css/About.css'
-import Back from './Back';
+import './About.css'
+import Back from '../Back/Back.js';
 import React from 'react';
 
 const About = () => {

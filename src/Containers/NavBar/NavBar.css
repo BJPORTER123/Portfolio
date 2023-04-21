@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 1%;
   }
   
   .nav-ul {
@@ -14,7 +14,7 @@
     align-items: center;
     list-style: none;
     gap: 1rem;
-    padding: 8px;
+    padding: 1%;
     margin: 0;
     backface-visibility: hidden;
   }

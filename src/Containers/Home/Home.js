@@ -1,12 +1,13 @@
-import NavBar from "./NavBar";
-import Footer from "./Footer";
-import "../css/Home.css";
-import hole from "../images/black.png";
-import desk from "../images/desk.png";
-import Particle from "../Components/Particle";
-import earth from "../images/earth.png"
 import React from "react";
-import Typerwriter from "../Components/Typerwriter";
+import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
+import TypingEffect from "../../Components/TypingEffect";
+import Particle from "../../Components/Particles/Particle";
+import hole from "../../images/hole.png";
+import desk from "../../images/desk.png";
+import earth from "../../images/earth.png"
+import "./Home.css";
+
 
 const Home = () => {
   const handleZoomClick = (event) => {
@@ -30,9 +31,9 @@ const Home = () => {
     <div className="home-page-container">
       <Particle id="tsparticles" />
       <NavBar handleZoomClick={handleZoomClick} />
-      <div className="intro-container">
-        <Typerwriter/>
-      </div>
+      <h2 className="text">
+        <TypingEffect/>
+      </h2>
       <div className="image-container">
         <img id="desk-image" src={desk} alt="desk" height="500" width="500" />
         <img id="zoomed-in-div" src={hole} alt="black-hole" height="100" width="100" />

@@ -1,6 +1,6 @@
-import About from "./Containers/About";
-import Projects from "./Containers/Projects";
-import Home from "./Containers/Home";
+import About from "./Containers/About/About.js";
+import Projects from "./Containers/Projects/Projects.js";
+import Home from "./Containers/Home/Home.js";
 import "./App.css";
 import React from "react";
 import { Routes, Route } from "react-router-dom";

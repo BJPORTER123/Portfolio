@@ -1,5 +1,5 @@
-import '../css/Projects.css'
-import Back from './Back';
+import './Projects.css'
+import Back from '../Back/Back.js';
 import React from 'react';
 
 const Projects = () => {
