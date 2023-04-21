@@ -30,7 +30,7 @@ const Home = () => {
       <Particle id="tsparticles" />
       <NavBar handleZoomClick={handleZoomClick} />
       <div className="intro-container">
-        <h2 className="writing">rtfhrth</h2>
+        <h2 className="writing">ghnmghn</h2>
       </div>
       <div className="image-container">
         <img id="desk-image" src={desk} alt="desk" height="500" width="500" />
