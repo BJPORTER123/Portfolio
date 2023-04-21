@@ -6,6 +6,7 @@ import desk from "../images/desk.png";
 import Particle from "../Components/Particle";
 import earth from "../images/earth.png"
 import React from "react";
+import Typerwriter from "../Components/Typerwriter";
 
 const Home = () => {
   const handleZoomClick = (event) => {
@@ -30,7 +31,7 @@ const Home = () => {
       <Particle id="tsparticles" />
       <NavBar handleZoomClick={handleZoomClick} />
       <div className="intro-container">
-        <h2 className="writing">ghnmghn</h2>
+        <Typerwriter/>
       </div>
       <div className="image-container">
         <img id="desk-image" src={desk} alt="desk" height="500" width="500" />
