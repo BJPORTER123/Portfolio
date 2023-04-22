@@ -9,10 +9,19 @@ const NavBar = ({handleZoomClick}) => {
         <nav className="nav-bar">
             <ul className="nav-ul">
             <li className="nav-li">
+                <Link className="nav-link1" to="/" onClick={handleZoomClick}>111</Link>
+            </li>
+            <li className="nav-li">
                 <Link className="nav-link" to="/about" onClick={handleZoomClick}>About</Link>
             </li>
             <li className="nav-li">
-                <Link className="nav-link" to="/projects" onClick={handleZoomClick}>Projects</Link>
+                <Link className="nav-link" to="/experience" onClick={handleZoomClick}>Experience</Link>
+            </li>
+            <li className="nav-li">
+                <Link className="nav-link" to="/contact" onClick={handleZoomClick}>Projects</Link>
+            </li>
+            <li className="nav-li">
+                <Link className="nav-link" to="/projects" onClick={handleZoomClick}>Contact</Link>
             </li>
             </ul>
         </nav>

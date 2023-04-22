@@ -1,5 +1,6 @@
 .nav-bar {
-    background: transparent;
+    background: rgb(119, 100, 100);
+    border-radius: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;

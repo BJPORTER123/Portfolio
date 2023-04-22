@@ -1,8 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
-import Footer from "../Footer/Footer";
 import TypingEffect from "../../Components/TypingEffect";
-import Particle from "../../Components/Particles/Particle";
 import hole from "../../images/hole.png";
 import desk from "../../images/desk.png";
 import earth from "../../images/earth.png"
@@ -29,8 +27,6 @@ const Home = () => {
 
   return (
     <div className="home-page-container">
-      <Particle id="tsparticles" />
-      <NavBar handleZoomClick={handleZoomClick} />
       <h2 className="text">
         <TypingEffect/>
       </h2>
@@ -40,7 +36,6 @@ const Home = () => {
         <img id="earth" src={earth} alt="earth" height="800" width="800" />
 
       </div>
-      <Footer />
     </div>
   );
 };
