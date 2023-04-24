@@ -1,16 +1,15 @@
+import React from "react";
+import { Routes, Route} from "react-router-dom";
 import About from "./Containers/About/About.js";
 import Projects from "./Containers/Projects/Projects.js";
 import Home from "./Containers/Home/Home.js";
-import "./App.css";
-import React from "react";
-import { Routes, Route } from "react-router-dom";
 import Particle from "./Components/Particles/Particle";
 import NavBar from "./Containers/NavBar/NavBar.js";
 import Footer from "./Containers/Footer/Footer.js";
 import Contact from "./Containers/Contact/Contact.js";
- 
+import "./App.css";
+
 const App = () => {
-  
 
 return (
   <>

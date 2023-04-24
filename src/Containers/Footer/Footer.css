@@ -1,16 +1,38 @@
+.footer-bar {
+  background-color:  var(--b-primary);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
 .footer-ul {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background-color:black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-  }
+  font-family: 'Minecraft';
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  padding: 1%;
+  margin: 0;
+  backface-visibility: hidden;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--t-primary);
+  font-weight: 400;
+  margin-right: 1rem;
+}
+.footer-link:visited {
+  color:  var(--t-primary);
+}
+
+.footer-link:hover{
+  color: var(--t-secondary);
+}
 
 
 

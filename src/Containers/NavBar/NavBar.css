@@ -1,17 +1,20 @@
 .nav-bar {
-    background: rgb(119, 100, 100);
+    background: var(--b-secondary);
+    outline: 2px solid var(--t-secondary);
+    width: fit-content;
     border-radius: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;    
     align-items: center;
-    padding: 1%;
+    padding: 10px;
+    margin: 0 auto;
   }
   
   .nav-ul {
     font-family: 'Minecraft';
     font-size: 2rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     list-style: none;
     gap: 1rem;
@@ -21,14 +24,38 @@
   }
   .nav-li{
     position: relative;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   
   .nav-link {
     text-decoration: none;
     color: azure;
-    font-weight: 400;
-    margin-right: 1rem;
   }
   .nav-link:visited {
     color: azure;
   }
+  .nav-link:hover{
+    color: var(--t-secondary);
+  }
+  
+  .active-link {
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--t-secondary);
+  }
+  
+  .active-link::after {
+    content: '';
+    position: absolute;
+    bottom: -34px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: var(--t-secondary);
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--t-secondary), 0 0 10px var(--t-secondary), 0 0 20px var(--t-secondary), 0 0 40px var(--t-secondary);
+  }
+  

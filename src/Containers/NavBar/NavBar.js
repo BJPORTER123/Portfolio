@@ -1,27 +1,29 @@
-import {Link} from "react-router-dom"
+import {Link, useLocation} from "react-router-dom"
 import "./NavBar.css"
 import React from "react";
 
-const NavBar = ({handleZoomClick}) => {
+const NavBar = () => {
+
+const location = useLocation()
 
     return (  
         <>
         <nav className="nav-bar">
             <ul className="nav-ul">
             <li className="nav-li">
-                <Link className="nav-link1" to="/" onClick={handleZoomClick}>111</Link>
+                <Link to="/" className="nav-link"  >111</Link>
             </li>
             <li className="nav-li">
-                <Link className="nav-link" to="/about" onClick={handleZoomClick}>About</Link>
+                <Link to="/about" className={location.pathname === "/about" ? 'active-link' : "nav-link"}>About</Link>
             </li>
             <li className="nav-li">
-                <Link className="nav-link" to="/experience" onClick={handleZoomClick}>Experience</Link>
+                <Link to="/experience" className={location.pathname === "/experience" ? 'active-link' : "nav-link"}>Experience</Link>
             </li>
             <li className="nav-li">
-                <Link className="nav-link" to="/contact" onClick={handleZoomClick}>Projects</Link>
+                <Link to="/projects" className={location.pathname === "/projects" ? 'active-link' : "nav-link"}>Projects</Link>
             </li>
             <li className="nav-li">
-                <Link className="nav-link" to="/projects" onClick={handleZoomClick}>Contact</Link>
+                <Link to="/contact" className={location.pathname === "/contact" ? 'active-link' : "nav-link"}>Contact</Link>
             </li>
             </ul>
         </nav>
