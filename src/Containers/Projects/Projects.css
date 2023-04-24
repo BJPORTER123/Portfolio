@@ -10,15 +10,6 @@
     z-index: 999;
   }
 
-.title-project{
-    font-size: 2rem;
-    display: flex;
-    flex-direction: flex-start;
-    margin-top:0;
-    padding-top: 2rem;
-    margin-left: 1rem;
-    color: white;
-}
 .main-container-project{
     display: flex;
     justify-content: space-evenly;
@@ -27,7 +18,7 @@
     padding: 10px;
     margin: 20px;
 }
-.project-item{
+#travelImage{
     list-style: none;
     flex: 1;
     min-width: 20em;
