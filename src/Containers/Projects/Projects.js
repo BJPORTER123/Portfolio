@@ -4,14 +4,47 @@ import './Projects.css'
 
 const Projects = () => {
     return (
-        <div className='project'>
-    
-        <h2 className='title-project'>Projects </h2>
-        <div className="main-container-project">
-            <div className='project-item'>
+        <div className="main-container-projects">
+          <div className='project-item'>
+            <img className='project-photo' src={travelApp} alt='Travel app Project'/>
+            <section>
+                <h3 className='project-title'>Travel App</h3>
+                <p>
+                  Travel app project blah blah 
+                </p>
+            </section>
+            <p>
+              tecnologies used 
+            </p>
+          </div>
+          <div className='project-item'>
+            <img className='project-photo' src={travelApp} alt='Travel app Project'/>
+            <section>
+                <h3  className='project-title'>Travel App</h3>
+                <p>
+                  Travel app project blah blah 
+                </p>
+            </section>
+            <p>
+              tecnologies used 
+            </p>
+          </div>
+          <div className='project-item'>
+            <img className='project-photo' src={travelApp} alt='Travel app Project'/>
+            <section>
+                <h3  className='project-title'>Travel App</h3>
+                <p>
+                  Travel app project blah blah 
+                </p>
+            </section>
+            <p>
+              tecnologies used 
+            </p>
+          </div>
+          <div className='project-item'>
               <img className='project-photo' src={travelApp} alt='Travel app Project'/>
               <section>
-                  <h3>Travel App</h3>
+                  <h3 className='project-title'>Travel App</h3>
                   <p>
                     Travel app project blah blah 
                   </p>
@@ -19,44 +52,7 @@ const Projects = () => {
               <p>
                 tecnologies used 
               </p>
-            </div>
-            <div className='project-item'>
-              <img className='project-photo' src={travelApp} alt='Travel app Project'/>
-              <section>
-                  <h3>Travel App</h3>
-                  <p>
-                    Travel app project blah blah 
-                  </p>
-              </section>
-              <p>
-                tecnologies used 
-              </p>
-            </div>
-            <div className='project-item'>
-              <img className='project-photo' src={travelApp} alt='Travel app Project'/>
-              <section>
-                  <h3>Travel App</h3>
-                  <p>
-                    Travel app project blah blah 
-                  </p>
-              </section>
-              <p>
-                tecnologies used 
-              </p>
-            </div>
-            <div className='project-item'>
-              <img className='project-photo' src={travelApp} alt='Travel app Project'/>
-              <section>
-                  <h3>Travel App</h3>
-                  <p>
-                    Travel app project blah blah 
-                  </p>
-              </section>
-              <p>
-                tecnologies used 
-              </p>
-            </div>
-        </div>
+          </div>
       </div>
     );
   };
