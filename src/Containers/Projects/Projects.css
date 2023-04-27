@@ -36,6 +36,14 @@
 }
 
 .project-title{
+    font-size: 3rem;
+}
+
+.project-description{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--t-primary);
+}
+
+.contains-description{
+    background-color: var(--b-s-transparent);
 }

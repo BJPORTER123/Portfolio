@@ -7,51 +7,27 @@ const Projects = () => {
         <div className="main-container-projects">
           <div className='project-item'>
             <img className='project-photo' src={travelApp} alt='Travel app Project'/>
-            <section>
-                <h3 className='project-title'>Travel App</h3>
-                <p>
-                  Travel app project blah blah 
-                </p>
-            </section>
-            <p>
+          <div className='project-description'>
+            <h3 className='project-title'>Travel App</h3>
+            <p className='contains-description'>
+              Travel app project blah blah 
+            </p>  
+          </div>
+            <div className='contains-tech'>
               tecnologies used 
-            </p>
+            </div>
           </div>
           <div className='project-item'>
             <img className='project-photo' src={travelApp} alt='Travel app Project'/>
-            <section>
-                <h3  className='project-title'>Travel App</h3>
-                <p>
-                  Travel app project blah blah 
-                </p>
-            </section>
-            <p>
-              tecnologies used 
-            </p>
+          <div className='project-description'>
+            <h3 className='project-title'>Travel App</h3>
+            <p className='contains-description'>
+              Travel app project blah blah 
+            </p>  
           </div>
-          <div className='project-item'>
-            <img className='project-photo' src={travelApp} alt='Travel app Project'/>
-            <section>
-                <h3  className='project-title'>Travel App</h3>
-                <p>
-                  Travel app project blah blah 
-                </p>
-            </section>
-            <p>
+            <div className='contains-tech'>
               tecnologies used 
-            </p>
-          </div>
-          <div className='project-item'>
-              <img className='project-photo' src={travelApp} alt='Travel app Project'/>
-              <section>
-                  <h3 className='project-title'>Travel App</h3>
-                  <p>
-                    Travel app project blah blah 
-                  </p>
-              </section>
-              <p>
-                tecnologies used 
-              </p>
+            </div>
           </div>
       </div>
     );

@@ -31,4 +31,5 @@ code {
   --b-primary:rgb(0,0,0);
   --b-secondary:rgb(22, 24, 32);
   --b--tertiary: rgb(37, 43, 68);
+  --b-s-transparent:rgba(22, 24, 32, 0.7);
 }
