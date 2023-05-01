@@ -1,5 +1,6 @@
 import React from 'react';
 import travelApp from '../../images/travelapp.png'
+import robit from '../../images/Robit.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -10,23 +11,23 @@ const Projects = () => {
             <div className='project-description'>
               <h3 className='project-title'>Travel App</h3>
               <p className='contains-description'>
-                Travel app project blah blah 
+                A Travel App Built in ReactJS for users to bucketlist countries they would like to visit 
               </p>  
             </div>
               <div className='contains-tech'>
-                tecnologies used 
+                Tecnologies used: Javascript, React, Express.JS, MongoDB
               </div>
           </div>
           <div className='project-item'>
-              <img className='project-photo' src={travelApp} alt='Travel app Project'/>
+              <img className='project-photo' src={robit} alt='Travel app Project'/>
             <div className='project-description'>
-              <h3 className='project-title'>Travel App</h3>
+              <h3 className='project-title'>Robit</h3>
               <p className='contains-description'>
-                Travel app project blah blah 
+                A platform game built in Unity Engine and my first Unity Project. 
               </p>  
             </div>
               <div className='contains-tech'>
-                tecnologies used 
+                 Technologies Used: Unity, C#, Adobe Photoshop
               </div>
           </div>
           <div className='project-item'>

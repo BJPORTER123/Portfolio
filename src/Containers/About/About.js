@@ -5,7 +5,7 @@ const About = () => {
     return (
       <div className="main-conatiner-about">
         <h2 className='title-about'>Hello, I'm Ben Porter, I am based in Edinburgh and recently completed CodeClan's Software Developer course</h2>
-        <img></img>
+        <img alt="Profile"></img>
       </div>
     );
   };
