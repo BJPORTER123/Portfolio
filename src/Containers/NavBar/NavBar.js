@@ -17,9 +17,6 @@ const location = useLocation()
                 <Link to="/about" className={location.pathname === "/about" ? 'active-link' : "nav-link"}>About</Link>
             </li>
             <li className="nav-li">
-                <Link to="/experience" className={location.pathname === "/experience" ? 'active-link' : "nav-link"}>Experience</Link>
-            </li>
-            <li className="nav-li">
                 <Link to="/projects" className={location.pathname === "/projects" ? 'active-link' : "nav-link"}>Projects</Link>
             </li>
             <li className="nav-li">
