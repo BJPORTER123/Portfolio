@@ -11,7 +11,7 @@ const Projects = () => {
             <div className='project-description'>
               <h3 className='project-title'>Travel App</h3>
               <p className='contains-description'>
-                A Travel App Built in ReactJS for users to bucketlist countries they would like to visit 
+                A Travel App Built in ReactJS for users to bucketlist countries they would like to visit. 
               </p>  
             </div>
               <div className='contains-tech'>
@@ -28,18 +28,6 @@ const Projects = () => {
             </div>
               <div className='contains-tech'>
                  Technologies Used: Unity, C#, Adobe Photoshop
-              </div>
-          </div>
-          <div className='project-item'>
-              <img className='project-photo' src={travelApp} alt='Travel app Project'/>
-            <div className='project-description'>
-              <h3 className='project-title'>Travel App</h3>
-              <p className='contains-description'>
-                Travel app project blah blah 
-              </p>  
-            </div>
-              <div className='contains-tech'>
-                tecnologies used 
               </div>
           </div>
           <div className='project-item'>
