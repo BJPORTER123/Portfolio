@@ -1,18 +1,37 @@
-.main-conatiner-about{
-    background-color: var(--b-s-transparent);
+.main-about {
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
     flex-wrap: wrap;
+  }
+  
+  .title-about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--t-primary);
+    font-size: 4rem;
+    background-color: var(--b-s-transparent);
+    outline: 0.1rem solid var(--t-tertiary);
     max-width: 40%;
     min-height: 30rem;
     border-radius: 3rem;
     padding: 2rem;
-    margin-left: 5rem;
-}
-
-.title-about{
+    margin-bottom: 2rem;
+  }
+  
+  .about-img {
+    max-width: 40%;
+    max-height: 40rem;
+    min-width: 30rem;
+    border-radius: 3rem;
+    padding: 2rem;
+  }
+  
+  .description-about {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--t-primary);
-    font-size: 4rem;
-}
+    max-width: 90%;
+    font-size: 1.5rem;
+    background-color: var(--b-s-transparent);
+    }

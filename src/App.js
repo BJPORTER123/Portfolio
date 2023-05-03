@@ -7,13 +7,15 @@ import Particle from "./Components/Particles/Particle";
 import NavBar from "./Containers/NavBar/NavBar.js";
 import Footer from "./Containers/Footer/Footer.js";
 import Contact from "./Containers/Contact/Contact.js";
+import './App.css'
 
 const App = () => {
 
 return (
-  <>
+  <div className="Main-Container">
   <NavBar/>
   <Particle id="tsparticles" />
+  
   <Routes>
     <Route path="/Portfolio" element={<Home/>}/>
     <Route path="/" element={<Home/>}/>
@@ -24,8 +26,7 @@ return (
 
   </Routes>
   <Footer/>
-  
-</>
+  </div>
 )}
 
 export default App;

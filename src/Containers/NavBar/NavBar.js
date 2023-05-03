@@ -24,7 +24,7 @@ const location = useLocation()
                 <Link to="/contact" className={location.pathname === "/contact" ? 'active-link' : "nav-link"}>Contact</Link>
             </li>
             <li className="nav-li">
-            <a href="https://drive.google.com/file/d/16jrzeqnAY4DgvFZNKZ4BKykCAQYM2M0m/view?usp=share_link" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a className="nav-link" href="https://drive.google.com/file/d/16jrzeqnAY4DgvFZNKZ4BKykCAQYM2M0m/view?usp=share_link" target="_blank" rel="noopener noreferrer">Resume</a>
             </li>
             </ul>
         </nav>
