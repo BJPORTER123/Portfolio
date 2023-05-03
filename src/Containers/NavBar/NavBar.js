@@ -1,5 +1,6 @@
 import {Link, useLocation} from "react-router-dom"
 import "./NavBar.css"
+import profile from '../../images/profilephoto.jpg'
 import React from "react";
 
 const NavBar = () => {
@@ -10,8 +11,8 @@ const location = useLocation()
         <>
         <nav className="nav-bar">
             <ul className="nav-ul">
-            <li className="nav-li">
-                <Link to="/" className="nav-link"  >111</Link>
+            <li className="photo-li">
+                <Link to="/"><img className='profile-img'src={profile}/></Link>
             </li>
             <li className="nav-li">
                 <Link to="/about" className={location.pathname === "/about" ? 'active-link' : "nav-link"}>About</Link>

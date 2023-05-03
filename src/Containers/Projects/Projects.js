@@ -1,6 +1,7 @@
 import React from 'react';
 import travelApp from '../../images/travelapp.png'
 import robit from '../../images/Robit.png'
+import triviaapp from '../../images/triviaapp.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -31,15 +32,15 @@ const Projects = () => {
               </div>
           </div>
           <div className='project-item'>
-              <img className='project-photo' src={travelApp} alt='Travel app Project'/>
+              <img className='project-photo' src={triviaapp} alt='Travel app Project'/>
             <div className='project-description'>
-              <h3 className='project-title'>Travel App</h3>
+              <h3 className='project-title'>Trivia App</h3>
               <p className='contains-description'>
-                Travel app project blah blah 
+                A simpslistic Trivia App made using a trivia API and react.  
               </p>  
             </div>
               <div className='contains-tech'>
-                tecnologies used 
+                Technologies used: Javascript, React
               </div>
           </div>
       </div>
