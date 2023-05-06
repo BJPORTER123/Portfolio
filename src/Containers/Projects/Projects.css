@@ -1,8 +1,6 @@
 .main-container-projects{
     min-height: auto;
     min-width: auto;
-    background-color: var(--b-primary);
-    outline: 0.1rem solid var(--t-tertiary);
     border-radius: 4rem;
     display: flex;
     justify-content: space-evenly;
