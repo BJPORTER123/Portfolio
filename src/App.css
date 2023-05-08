@@ -6,4 +6,7 @@
     padding: 2rem;
     z-index: 0;
     outline: 0.1rem solid var(--t-quad);
+    max-width: 100rem;
+
+
 }

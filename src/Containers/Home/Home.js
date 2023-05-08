@@ -1,8 +1,6 @@
 import React from "react";
 import TypingEffect from "../../Components/TypingEffect";
-import hole from "../../images/hole.png";
-import desk from "../../images/desk.png";
-import earth from "../../images/earth.png"
+import worldspin from "../../images/world-spin.gif"
 import "./Home.css";
 
 
@@ -30,10 +28,7 @@ const Home = () => {
         <TypingEffect/>
       </h2>
       <div className="image-container">
-        <img id="desk-image" src={desk} alt="desk" height="500" width="500" />
-        <img id="zoomed-in-div" src={hole} alt="black-hole" height="100" width="100" />
-        <img id="earth" src={earth} alt="earth" height="800" width="800" />
-
+        <img id="desk-image" src={worldspin} alt="world spinnign gif" height="500" width/>
       </div>
     </div>
   );

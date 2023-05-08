@@ -11,34 +11,17 @@
   align-items: center;
 }
 
-#zoomed-in-div {
-    z-index: 999;
-    position: absolute;
-    top: -16em;
-    left: 21.5em;
-  }
   
 
-#desk-image{
-  position: absolute;
-  z-index: 1;
-  top: -8em;
-  left: 35em;
-}
-
-#earth{
-  position: absolute;
-  z-index: 0;
-  top: 19em;
-  left: -10em;
-}
-
 img{
+  width: 120rem;
   -khtml-user-select: none;
   -o-user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
+  padding: 0;
+  margin: 0;
 }
 
 .text{
@@ -46,7 +29,9 @@ img{
   font-family: "Minecraft";
   font-size: 4rem;
   display: flex;
+  flex-direction: center;
+  align-items: center;
   flex-wrap: wrap;
-  max-width: 30rem;
+  max-width: 100%;
 }
 
