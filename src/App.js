@@ -5,8 +5,6 @@ import Projects from "./Containers/Projects/Projects.js";
 import Home from "./Containers/Home/Home.js";
 import Particle from "./Components/Particles/Particle";
 import NavBar from "./Containers/NavBar/NavBar.js";
-import Footer from "./Containers/Footer/Footer.js";
-import Contact from "./Containers/Contact/Contact.js";
 import "./App.css";
 
 const App = () => {
@@ -19,10 +17,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
       </Routes>
-      <Footer />
     </div>
   );
 };

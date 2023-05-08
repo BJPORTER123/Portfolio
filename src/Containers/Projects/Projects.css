@@ -14,7 +14,7 @@
     background-image: url("../../images/sc-fi-texturing.png");
     background-size: 100%;
     flex: 1;
-    min-width: 40rem;
+    min-width: 30rem;
     max-width: 40rem;
     min-height: auto;
     position: relative;
@@ -23,7 +23,7 @@
     flex-direction: column;
     outline: 0.1rem solid var(--t-secondary);
     border-radius: 1.875rem;
-    margin: 3rem;
+    margin: 2rem;
     padding: 2rem;
 }
 
