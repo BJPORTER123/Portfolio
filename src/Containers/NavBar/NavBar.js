@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, useLocation } from "react-router-dom"
+import { BrowserRouter as Router, Link , useLocation } from "react-router-dom"
 import "./NavBar.css"
 import profile from '../../images/profilephoto.jpg'
 import React from "react";
